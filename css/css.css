@@ -303,3 +303,72 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+.galery{
+    padding-bottom: 20px;
+}
+
+.card-item {
+    background-color: #f1c233;
+    color: red;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.btnfiltro{
+    padding-bottom: 10px;
+     display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-filtroT{
+    background-color: #f1c233;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn-filtro {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn-filtroT.trocarCor{
+    background-color: red;
+    color: white;
+}
+
+.btn-filtro.trocarCor{
+    background-color: #f1c233;
+    color: white;
+}
+
+.btn-filtro:hover {
+    background-color: #b71c1c;
+    transform: translateY(-2px);
+}
+
+.cards-galeria{
+    display: flex;
+    justify-content: center;
+
+}
