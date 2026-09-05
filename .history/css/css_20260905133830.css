@@ -385,11 +385,11 @@ footer {
     margin-bottom: 25px;
 }
 
-.crd-item {
+.faq-item {
     margin-bottom: 15px;
 }
 
-.crd-pergunta {
+.faq-pergunta {
     width: 100%;
     background-color: #f1c233;
     color: red;
@@ -401,25 +401,24 @@ footer {
     cursor: pointer;
 }
 
-.crd-pergunta:hover {
+.faq-pergunta:hover {
     background-color: red;
     color: #f1c233;
 }
 
-.crd-resposta {
-    display: none;
+.faq-resposta {
+    max-height: 0;
     overflow: hidden;
     background-color: white;
-    transition: 0.4s ease;
+    transition: 0.4s;
 }
 
-.crd-resposta p {
+.faq-resposta p {
     padding: 15px 20px;
     color: #333;
     line-height: 1.5;
 }
 
-.crd-item.ativo, .crd-resposta.ativo {
-    display: flex;
+.faq-item.ativo .faq-resposta {
     max-height: 200px;
 }

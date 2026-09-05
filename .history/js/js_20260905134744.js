@@ -1,3 +1,4 @@
+// 1. Guardamos os elementos da tela dentro de variáveis
 const modal = document.getElementById("modalContato");
 const btnAbrir = document.getElementById("btn");
 const btnFechar = document.getElementById("btnClose");
@@ -24,34 +25,27 @@ rolar.onclick = function () {
   });
 };
 
-const botoes = document.querySelectorAll(".btn-filtro");
-const cards = document.querySelectorAll(".card-item");
+const botoes = document.querySelectorAll(".btn-filtro")
+const cards = document.querySelectorAll(".card-item")
 
 botoes.forEach((botao) => {
   botao.addEventListener("click", () => {
-    const categoriaSelec = botao.getAttribute("data-categoria");
+    const categoriaSelec = botao.getAttribute("data-categoria")
     cards.forEach((card) => {
-      const categoriaCard = card.getAttribute("data-categoria");
+      const categoriaCard = card.getAttribute("data-categoria")
       if (categoriaSelec === "todos" || categoriaSelec === categoriaCard) {
-        card.classList.remove("escondido");
+        card.classList.remove("escondido")
       } else {
-        card.classList.add("escondido");
+        card.classList.add("escondido")
       }
-    });
-  });
-});
-
-const perguntas = document.querySelectorAll(".crd-pergunta");
-
-perguntas.forEach((pergunta) => {
-  pergunta.addEventListener("click", () => {
-    const item = pergunta.parentElement;
-    const resposta = item.querySelector(".crd-resposta");
-
-    if (resposta.classList.contains("ativo")) {
-      resposta.classList.remove("ativo");
-    } else {
-      resposta.classList.add("ativo");
-    }
+    })
   })
 })
+
+const perguntas = document.querySelector(".crd-pergunta");
+const respostas = document.querySelector(".crd-resposta");
+const mostrarResp = document.querySelector(".crd-item");
+
+perguntas.onclick = function () {
+
+}

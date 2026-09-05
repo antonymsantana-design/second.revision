@@ -419,7 +419,7 @@ footer {
     line-height: 1.5;
 }
 
-.crd-item.ativo, .crd-resposta.ativo {
-    display: flex;
+.crd-item.ativo, .crd-resposta {
+    display: ck;
     max-height: 200px;
 }

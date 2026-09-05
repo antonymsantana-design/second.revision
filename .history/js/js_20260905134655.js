@@ -1,3 +1,4 @@
+// 1. Guardamos os elementos da tela dentro de variáveis
 const modal = document.getElementById("modalContato");
 const btnAbrir = document.getElementById("btn");
 const btnFechar = document.getElementById("btnClose");
@@ -42,16 +43,7 @@ botoes.forEach((botao) => {
 });
 
 const perguntas = document.querySelectorAll(".crd-pergunta");
+const respostas = document.querySelectorAll(".crd-resposta");
+const mostrarResp = docu
 
-perguntas.forEach((pergunta) => {
-  pergunta.addEventListener("click", () => {
-    const item = pergunta.parentElement;
-    const resposta = item.querySelector(".crd-resposta");
-
-    if (resposta.classList.contains("ativo")) {
-      resposta.classList.remove("ativo");
-    } else {
-      resposta.classList.add("ativo");
-    }
-  })
-})
+perguntas.onclick = function () {};

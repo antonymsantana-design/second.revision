@@ -407,7 +407,7 @@ footer {
 }
 
 .crd-resposta {
-    display: none;
+    max-height: 0;
     overflow: hidden;
     background-color: white;
     transition: 0.4s ease;
@@ -419,7 +419,6 @@ footer {
     line-height: 1.5;
 }
 
-.crd-item.ativo, .crd-resposta.ativo {
-    display: flex;
+.crd-item.ativo, .crd-resposta {
     max-height: 200px;
 }

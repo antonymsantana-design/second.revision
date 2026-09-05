@@ -1,3 +1,4 @@
+// 1. Guardamos os elementos da tela dentro de variáveis
 const modal = document.getElementById("modalContato");
 const btnAbrir = document.getElementById("btn");
 const btnFechar = document.getElementById("btnClose");
@@ -42,16 +43,54 @@ botoes.forEach((botao) => {
 });
 
 const perguntas = document.querySelectorAll(".crd-pergunta");
+const respostas = document.querySelectorAll(".crd-resposta");
+.faq-container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 20px;
+}
 
-perguntas.forEach((pergunta) => {
-  pergunta.addEventListener("click", () => {
-    const item = pergunta.parentElement;
-    const resposta = item.querySelector(".crd-resposta");
+.faq-titulo {
+    text-align: center;
+    color: red;
+    margin-bottom: 25px;
+}
 
-    if (resposta.classList.contains("ativo")) {
-      resposta.classList.remove("ativo");
-    } else {
-      resposta.classList.add("ativo");
-    }
-  })
-})
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-pergunta {
+    width: 100%;
+    background-color: #f1c233;
+    color: red;
+    border: none;
+    padding: 18px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-pergunta:hover {
+    background-color: red;
+    color: #f1c233;
+}
+
+.faq-resposta {
+    max-height: 0;
+    overflow: hidden;
+    background-color: white;
+    transition: 0.4s;
+}
+
+.faq-resposta p {
+    padding: 15px 20px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.faq-item.ativo .faq-resposta {
+    max-height: 200px;
+}
+perguntas.onclick = function () {};

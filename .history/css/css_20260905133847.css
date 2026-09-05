@@ -407,19 +407,18 @@ footer {
 }
 
 .crd-resposta {
-    display: none;
+    max-height: 0;
     overflow: hidden;
     background-color: white;
-    transition: 0.4s ease;
+    transition: 0.4s;
 }
 
-.crd-resposta p {
+.faq-resposta p {
     padding: 15px 20px;
     color: #333;
     line-height: 1.5;
 }
 
-.crd-item.ativo, .crd-resposta.ativo {
-    display: flex;
+.faq-item.ativo .faq-resposta {
     max-height: 200px;
 }

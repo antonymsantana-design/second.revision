@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>avaliação </title>
+    <link rel="stylesheet" href="../css/css.css">
+    <script src="../js/js.js" defer></script>
+</head>
+<header>
+    <div class="conteudoH" id="conteudoH">
+        <div class="imagem" id="imagem">
+            <img src="../IMAGENS/partido-dos-trabalhadores-pt.png" alt="logo" class="logoIMG" id="logoIMG">
+        </div>
+        <div class="links" id="links">
+            <a href="#" class="aLinks">EXPERIÊNCIAS</a>
+            <a href="#" class="aLinks">PROJETOS</a>
+            <a href="#" class="aLinks">SOBRE</a>
+        </div>
+        <div class="btnDiv" id="btnDiv">
+            <button class="btn" id="btn">
+                <div class="btnTxt" id="btnTxt">
+                    <p>contrate-nos</p>
+                </div>
+            </button>
+        </div>
+    </div>
+</header>
+
+<body>
+
+    <div class="conteudo">
+        <div class="texto">
+            <h1 class="faça_o_l">FAÇA O L </h1> <br>
+            <h1 class="imediatamente">IMEDIATAMENTE</h1>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <div class="imagemCard">
+                <img src="../IMAGENS/fazoL.webp" alt="ptzão">
+            </div>
+            <div class="textoC">
+                <p> O L desenhado pelas mãos do povo é o nosso escudo estampado no peito, o brasão de uma nação que
+                    recusou o fim e escolheu se reconstruir. Assim como os maiores símbolos de proteção, ele traz a
+                    força indomável dos esquecidos, a coragem da classe trabalhadora e o abraço que resgata a dignidade
+                    de cada família. Fazer o L não é apenas um gesto: é a armadura invisível da justiça, a poesia de
+                    quem luta sem medo e a prova viva de que a esperança sempre vence qualquer escuridão.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imagemCard">
+                <img src="../IMAGENS/Design sem nome.png" alt="ptzão">
+            </div>
+            <div class="textoC">
+                <p>A reconstrução do Brasil é a nossa maior batalha vitoriosa, o compromisso sagrado de honrar quem
+                    ergue este país com as próprias mãos. É o salário que volta a ter valor de arma contra a miséria, o
+                    prato cheio que alimenta a dignidade e a porta da universidade aberta para o filho do trabalhador.
+                    Erguemos de volta a estrutura de uma nação soberana, provando que quando a força do povo se levanta,
+                    nenhuma injustiça é capaz de ficar em pé.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imagemCard">
+                <img src="../IMAGENS/Design sem nome (1).png" alt="ptzão">
+            </div>
+            <div class="textoC">
+                <p>Nossa verdadeira força nunca esteve em batalhas solitárias, mas no exército invencível de milhões de
+                    corações alinhados. É o povo organizado no campo, na fábrica e na periferia, formando uma barreira
+                    inabalável em defesa da liberdade e do futuro. Estar juntos é carregar o juramento de não deixar
+                    ninguém para trás. Somos a guarda permanente do país, os guardiões da justiça social e a prova de
+                    que a nossa união é o maior poder da Terra.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cardsV">
+        <div class="video">
+            <video autoplay loop muted playsinline>
+                <source src="../video/video1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video">
+            <video autoplay loop muted playsinline>
+                <source src="../video/video2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video">
+            <video autoplay loop muted playsinline>
+                <source src="../video/video3.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div class="galery">
+        <div class="btnfiltro">
+            <button class="btn-filtroT" data-categoria="todos">Todas</button>
+            <button class="btn-filtro" data-categoria="social">Social</button>
+            <button class="btn-filtro" data-categoria="educação">Educação</button>
+            <button class="btn-filtro" data-categoria="economia">Economia</button>
+        </div>
+
+        <div class="cards-galeria">
+
+            <div class="card-item" data-categoria="social">
+                <h3>Bolsa Família</h3>
+                <p>Garantia de renda e combate direto à extrema pobreza em todo o país.</p>
+            </div>
+
+            <div class="card-item" data-categoria="social">
+                <h3>Minha Casa Minha Vida</h3>
+                <p>Acesso à moradia digna para milhões de famílias brasileiras.</p>
+            </div>
+
+            <div class="card-item" data-categoria="educacao">
+                <h3>Prouni e FIES</h3>
+                <p>Inclusão de jovens da classe trabalhadora no ensino superior.</p>
+            </div>
+
+            <div class="card-item" data-categoria="educacao">
+                <h3>Expansão de IFFs</h3>
+                <p>Criação dos Institutos Federais para ensino técnico de qualidade.</p>
+            </div>
+
+            <div class="card-item" data-categoria="economia">
+                <h3>PAC</h3>
+                <p>Programa de Aceleração do Crescimento gerando empregos e infraestrutura.</p>
+            </div>
+
+            <div class="card-item" data-categoria="economia">
+                <h3>Valorização do Salário</h3>
+                <p>Aumento real do salário mínimo acima da inflação.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal-overlay" id="modalContato">
+        <div class="modal-box">
+            <span id="btnClose" class="close-btn">X</span>
+            <h2 class="modal-title">FALE CONOSCO</h2>
+
+            <form id="formContato">
+                <div class="input-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="Assunto">Assunto</label>
+                    <input type="text" id="assunto" required>
+                </div>
+                <div class="input-group">
+                    <label for="mensagem">mensagem</label>
+                    <textarea id="mensagem" rows="4" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar" id="enviar">ENVIAR</button>
+            </form>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="cima">
+        <div class="esquerda">
+            <h3>NAVEGAÇÃO RAPIDA</h3>
+            <h4 class="btnTopo" id="btnTopo">⬆️ voltar ao topo</h4>
+        </div>
+        <div class="direita">
+            <h3>CONTATOS</h3>
+            <a href="">presidencia@pt.org.br</a> <br>
+            <a href="">antonymsantana@gmail.com</a>
+        </div>
+    </div>
+    <div class="baixo">
+        <h4>© 1313 site do melhor partido. Todos os direitos rezervados</h4>
+    </div>
+</footer>
+
+</html>

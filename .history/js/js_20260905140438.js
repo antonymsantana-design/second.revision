@@ -44,14 +44,22 @@ botoes.forEach((botao) => {
 const perguntas = document.querySelectorAll(".crd-pergunta");
 
 perguntas.forEach((pergunta) => {
-  pergunta.addEventListener("click", () => {
-    const item = pergunta.parentElement;
-    const resposta = item.querySelector(".crd-resposta");
 
-    if (resposta.classList.contains("ativo")) {
-      resposta.classList.remove("ativo");
-    } else {
-      resposta.classList.add("ativo");
-    }
-  })
-})
+    pergunta.addEventListener("click", () => {
+
+        const item = pergunta.parentElement;
+        const resposta = item.querySelector(".crd-resposta");
+
+        if (resposta.classList.contains("ativo")) {
+
+            resposta.classList.remove("ativo");
+
+        } else {
+
+            resposta.classList.add("ativo");
+
+        }
+
+    });
+
+});

@@ -53,5 +53,5 @@ perguntas.forEach((pergunta) => {
     } else {
       resposta.classList.add("ativo");
     }
-  })
-})
+  });
+});

@@ -352,6 +352,11 @@ footer {
     transition: 0.3s ease;
 }
 
+.btn-filtroT.trocarCor{
+    background-color: red;
+    color: white;
+}
+
 .btn-filtro.trocarCor{
     background-color: #f1c233;
     color: white;
@@ -363,63 +368,7 @@ footer {
 }
 
 .cards-galeria{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(3, 240px);
-    gap: 60px;
-}
-
-.card-item.escondido {
-    display: none;
-}
-
-.crd-container {
-    max-width: 900px;
-    margin: 60px auto;
-    padding: 20px;
-}
-
-.crd-titulo {
-    text-align: center;
-    color: red;
-    margin-bottom: 25px;
-}
-
-.crd-item {
-    margin-bottom: 15px;
-}
-
-.crd-pergunta {
-    width: 100%;
-    background-color: #f1c233;
-    color: red;
-    border: none;
-    padding: 18px;
-    text-align: left;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.crd-pergunta:hover {
-    background-color: red;
-    color: #f1c233;
-}
-
-.crd-resposta {
-    display: none;
-    overflow: hidden;
-    background-color: white;
-    transition: 0.4s ease;
-}
-
-.crd-resposta p {
-    padding: 15px 20px;
-    color: #333;
-    line-height: 1.5;
-}
-
-.crd-item.ativo, .crd-resposta.ativo {
     display: flex;
-    max-height: 200px;
+    justify-content: center;
+
 }

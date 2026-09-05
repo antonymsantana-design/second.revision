@@ -423,3 +423,8 @@ footer {
     display: flex;
     max-height: 200px;
 }
+
+.crd-item.ativo, .crd-resposta.ativo:hover {
+    display: flex;
+    max-height: 200px;
+}
