@@ -4,6 +4,7 @@ const btnFechar = document.getElementById("btnClose");
 const enviar = document.getElementById("enviar");
 const rolar = document.getElementById("btnTopo");
 
+
 btnAbrir.onclick = function () {
   modal.classList.add("active");
 };
@@ -53,5 +54,5 @@ perguntas.forEach((pergunta) => {
     } else {
       resposta.classList.add("ativo");
     }
-  });
-});
+  })
+})

@@ -2,7 +2,7 @@ const modal = document.getElementById("modalContato");
 const btnAbrir = document.getElementById("btn");
 const btnFechar = document.getElementById("btnClose");
 const enviar = document.getElementById("enviar");
-const rolar = document.getElementById("btnTopo");
+const rolar = document.getElementById("
 
 btnAbrir.onclick = function () {
   modal.classList.add("active");
@@ -53,5 +53,5 @@ perguntas.forEach((pergunta) => {
     } else {
       resposta.classList.add("ativo");
     }
-  });
-});
+  })
+})
