@@ -426,6 +426,7 @@ footer {
 
 /* celular */
 @media (max-width: 768px) {
+
   /* header */
   header {
     height: auto;
@@ -467,6 +468,7 @@ footer {
     height: 45px;
   }
 
+
   /* banner */
   .conteudo {
     height: 70vh;
@@ -476,9 +478,9 @@ footer {
   .texto {
     padding-top: 180px;
     padding-left: 20px;
-    padding-right: 20px;
-    font-size: 20px;
+    font-size: 25px;
   }
+
 
   /* cards */
   .cards {
@@ -507,6 +509,7 @@ footer {
     height: 250px;
   }
 
+
   /* videos */
   .cardsV {
     flex-direction: column;
@@ -521,6 +524,7 @@ footer {
     max-width: 450px;
     padding-bottom: 20px;
   }
+
 
   /* galeria */
   .galery {
@@ -548,6 +552,7 @@ footer {
     box-sizing: border-box;
   }
 
+
   /* perguntas */
   .crd-container {
     width: auto;
@@ -568,11 +573,13 @@ footer {
     font-size: 15px;
   }
 
+
   /* modal */
   .modal-box {
     width: 85%;
     padding: 25px 20px;
   }
+
 
   /* footer */
   .cima {
@@ -590,4 +597,5 @@ footer {
   .baixo h4 {
     font-size: 13px;
   }
+
 }
